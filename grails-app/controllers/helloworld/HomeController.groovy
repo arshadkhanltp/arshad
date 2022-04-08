@@ -44,4 +44,7 @@ class HomeController {
         render(view: 'user',model: [user:userDTO])
     }
 
+    def gitaction(){
+        render "Hello from git"
+    }
 }
